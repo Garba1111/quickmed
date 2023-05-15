@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_1dp"> 1 </dimen>
+    <dimen name="_2dp" >2</dimen>
+    <dimen name="_3dp">3</dimen>
+    <dimen name="_4dp">4</dimen>
+    <dimen name="_5dp" >5</dimen>
+    <dimen name="_6dp" >6</dimen>
+    <dimen name="_7dp">7</dimen>
+    <dimen name="_8dp" >8</dimen>
+    <dimen name="_9dp" >9</dimen>
+    <dimen name="_10dp">10</dimen>
+    <dimen name="_11dp">11</dimen>
+    <dimen name="_12dp" >12</dimen>
+    <dimen name="_13dp">13</dimen>
+    <dimen name="_14dp" >14</dimen>
+    <dimen name="_15dp" >15</dimen>
+    <dimen name="_16dp" >16</dimen>
+    <dimen name="_17dp" >17</dimen>
+    <dimen name="_18dp" >18</dimen>
+    <dimen name="_19dp" >19</dimen>
+    <dimen name="_20dp">20</dimen>
+    <dimen name="_21dp">21</dimen>
+    <dimen name="_22dp" >22</dimen>
+    <dimen name="_250dp">250</dimen>
+    <dimen name="_170dp">170</dimen>
+    <dimen name="_45dp" >45</dimen>
+    <dimen name="_50dp" >50</dimen>
+    <dimen name="_55dp" >55</dimen>
+    <dimen name="_100dp" >100</dimen>
+    <dimen name="_35dp" >35</dimen>
+    <dimen name="_25dp" >25</dimen>
+    <dimen name="_30dp" >30</dimen>
+    <dimen name="_150dp" >150</dimen>
+    <dimen name="_642dp" >642</dimen>
+    <dimen name="_56dp" >56</dimen>
+    <dimen name="_75dp" >75</dimen>
+    <dimen name="_115dp" >115</dimen>
+    <dimen name="_68dp" >68</dimen>
+    <dimen name="_28dp" >28</dimen>
+    <dimen name="_224dp" >224</dimen>
+    <dimen name="_160dp" >160</dimen>
+    <dimen name="_175dp" >175</dimen>
+    <dimen name="_98p" >98</dimen>
+    <dimen name="__15dp"> -15</dimen>
+    <dimen name="_60dp" >60</dimen>
+    <dimen name="_40dp" >40</dimen>
+
+    <dimen name="_300dp" >300</dimen>
+    <dimen name="_350dp" >350</dimen>
+    <dimen name="_195dp" >195</dimen>
+    <dimen name="_190dp" >190</dimen>
+
+
+
+    <dimen name="_200dp" >200</dimen>
+
+
+    <dimen name="_310dp" >310</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

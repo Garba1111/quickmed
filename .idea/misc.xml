@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/drawable/actype.xml" value="0.206" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/drawable/border.xml" value="0.1615" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/drawable/border2.xml" value="0.1315" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/drawable/rad.xml" value="0.127" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_abtamblance1.xml" value="0.1" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_abtamblance2.xml" value="0.33" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_abtamblance3.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_abtamblance4.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_abthospital.xml" value="0.33" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_abthospital2.xml" value="0.33" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_actype.xml" value="0.22" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_before_auth.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_cam.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_details.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_emergency.xml" value="0.16" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_frame.xml" value="0.16" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_hospitalcam.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_layout_testing.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_map2.xml" value="0.18" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_maps1.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_patientinfo.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_payment3.xml" value="0.22" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_payments.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_payments2.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_scrollable.xml" value="0.1" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_scrolltest.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_signintype.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_singnintype1.xml" value="0.22" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_singnintype2.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_specialty.xml" value="0.33" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_verify.xml" value="0.22" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_verify1.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_verifynum.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/splash.xml" value="0.18" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/verify.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.206" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/xml/verify.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

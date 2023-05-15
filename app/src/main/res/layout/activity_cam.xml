@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".frame">
+
+    <ScrollView
+         android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearcam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/camconstraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250dp"
+                android:background="@color/main_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <TextView
+                    android:id="@+id/cam_med_details1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20dp"
+                    android:layout_marginLeft="@dimen/_1dp"
+                    android:layout_marginTop="@dimen/_35dp"
+                    android:gravity="center"
+                    android:text="@string/medical_details"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/cam_med_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20dp"
+                    android:layout_marginLeft="@dimen/_20dp"
+                    android:layout_marginTop="@dimen/_35dp"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_20dp"
+                    android:text="@string/basic_details"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/cam_med_details1"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.502" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="@dimen/_100dp"
+                    android:layout_height="@dimen/_5dp"
+                    android:layout_marginLeft="@dimen/_25dp"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="@color/View_color"
+                    android:foregroundGravity="left"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cam_med_details1" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="@dimen/_100dp"
+                    android:layout_height="@dimen/_5dp"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:layout_marginRight="@dimen/_25dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FDFBFB"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cam_NOK" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="@dimen/_115dp"
+                    android:layout_height="@dimen/_5dp"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FDFCFC"
+                    app:layout_constraintEnd_toStartOf="@+id/view3"
+                    app:layout_constraintStart_toEndOf="@+id/view1"
+                    app:layout_constraintTop_toBottomOf="@+id/cam_med_details" />
+
+                <TextView
+                    android:id="@+id/cam_NOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20dp"
+                    android:layout_marginTop="@dimen/_35dp"
+                    android:layout_marginRight="@dimen/_30dp"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/_20dp"
+                    android:text="@string/next_of_kin"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.962"
+                    app:layout_constraintStart_toEndOf="@+id/cam_med_details"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.502" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="@dimen/_25dp"
+                    android:layout_height="@dimen/_25dp"
+                    android:layout_marginLeft="@dimen/_15dp"
+                    android:layout_marginTop="@dimen/_16dp"
+                    android:paddingLeft="@dimen/_3dp"
+                    android:src="@drawable/iosback"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.041"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15dp"
+                    android:layout_marginBottom="@dimen/_5dp"
+                    android:elevation="@dimen/_10dp"
+                    android:fontFamily="@font/j"
+                    android:gravity="left"
+                    android:paddingLeft="@dimen/_3dp"
+                    android:text="@string/more"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_20dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.051"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                    app:layout_constraintVertical_bias="0.117" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_642dp"
+                android:layout_marginTop="@dimen/_30dp"
+                android:background="@drawable/rad"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+                app:layout_constraintVertical_bias="0.0">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_350dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_20dp"
+                    android:paddingRight="@dimen/_20dp"
+                    android:layout_marginRight="@dimen/_15dp"
+                    app:layout_constraintBottom_toTopOf="@+id/next"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                    <LinearLayout
+                        android:layout_marginBottom="@dimen/_190dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/cam_constraintLayout6"
+                            android:layout_width="@dimen/_150dp"
+                            android:layout_height="104dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/actype"
+                            android:elevation="@dimen/_3dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            >
+
+                            <ImageView
+                                android:id="@+id/cam2"
+                                android:layout_width="@dimen/_75dp"
+                                android:layout_height="@dimen/_50dp"
+                                android:src="@drawable/camm"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="@dimen/_150dp"
+                            android:layout_height="wrap_content"
+
+                            android:fontFamily="@font/j"
+                            android:gravity="center"
+                            android:text="@string/provide_a_clear_photo_of_your_medical_liscence"
+                            android:textColor="@color/black_text"
+                            android:textSize="12dp"
+                            android:textStyle="normal" />
+
+
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_350dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/_15dp"
+
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_20dp"
+
+                    android:paddingRight="@dimen/_20dp"
+                    app:layout_constraintBottom_toTopOf="@+id/next"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/cam_constraintLayout5"
+                        android:layout_width="@dimen/_150dp"
+                        android:layout_height="@dimen/_100dp"
+
+
+                        android:background="@drawable/actype"
+                        android:elevation="3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                        <ImageView
+                            android:id="@+id/cam1"
+                            android:layout_width="@dimen/_75dp"
+                            android:layout_height="@dimen/_50dp"
+                            android:src="@drawable/camm"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="@dimen/_150dp"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="@font/j"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/_4dp"
+                        android:text="@string/provide_a_clear_prove_of_address_document"
+                        android:textColor="@color/black_text"
+                        android:textSize="@dimen/_12dp"
+                        android:textStyle="normal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cam_constraintLayout5" />
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/cam_constraintLayout4"
+                        android:layout_width="@dimen/_150dp"
+                        android:layout_height="@dimen/_100dp"
+
+                        android:layout_marginTop="@dimen/_56dp"
+                        android:background="@drawable/actype"
+                        android:elevation="@dimen/_3dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cam_constraintLayout5">
+
+                        <ImageView
+                            android:id="@+id/cam3"
+                            android:layout_width="@dimen/_75dp"
+                            android:layout_height="@dimen/_50dp"
+                            android:src="@drawable/camm"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <TextView
+                        android:layout_width="@dimen/_150dp"
+                        android:layout_height="wrap_content"
+
+                        android:fontFamily="@font/j"
+                        android:gravity="center"
+                        android:text="@string/provide_a_clear_photo_of_your_medical_certificate"
+                        android:textColor="@color/black_text"
+                        android:textSize="@dimen/_12dp"
+
+                        android:textStyle="normal"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cam_constraintLayout4" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20dp"
+                    android:layout_marginLeft="@dimen/_17dp"
+                    android:layout_marginBottom="200dp"
+                    android:fontFamily="@font/j"
+                    android:paddingRight="@dimen/_1dp"
+                    android:text="@string/upload_your_medical_documents"
+                    android:textColor="@color/black_text"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.037" />
+
+                <TextView
+                    android:id="@+id/next"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50dp"
+                    android:layout_marginRight="@dimen/_50dp"
+                    android:layout_marginBottom="68dp"
+                    android:layout_marginLeft="@dimen/_50dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="@color/main_color"
+                    android:elevation="@dimen/_5dp"
+                    android:gravity="center"
+                    android:text="@string/finish"
+                    android:textColor="@color/white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.475"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8"
+                    app:layout_constraintVertical_bias="0.794" />
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="@dimen/_35dp" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="35dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

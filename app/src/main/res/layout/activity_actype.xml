@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".actype">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25dp"
+        android:layout_marginLeft="@dimen/_15dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:paddingLeft="@dimen/_3dp"
+
+        android:src="@drawable/backblack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_marginTop="@dimen/_30dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/j"
+        android:text="@string/account_type"
+        android:textStyle="bold"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/_15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/j"
+        android:text="@string/powered_by_adain"
+        android:textColor="@color/black_text"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewactype"
+        android:layout_marginTop="@dimen/_60dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+<LinearLayout
+    android:id="@+id/linearactype"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/_250dp"
+        android:id="@+id/actype1"
+        android:layout_height="170dp"
+        android:background="@drawable/actype"
+        android:elevation="@dimen/_5dp">
+
+
+        <ImageView
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_100dp"
+            android:src="@drawable/pers"
+            android:textColor="#605E5E"
+            android:id="@+id/img1"
+            app:layout_constraintBottom_toTopOf="@+id/personel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/personel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/j"
+            android:text="@string/medical_personel"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13dp"
+            android:textColor="@color/black_text"
+
+            android:layout_marginBottom="@dimen/_5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.986" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="250dp"
+        android:id="@+id/constraint1"
+        android:layout_marginTop="@dimen/_50dp"
+        android:layout_height="@dimen/_170dp"
+        android:background="@drawable/actype"
+        android:elevation="@dimen/_5dp">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_100dp"
+            android:src="@drawable/pers"
+            app:layout_constraintBottom_toTopOf="@+id/patient"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/patient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/j"
+            android:text="@string/patient"
+            android:textColor="@color/black_text"
+
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_marginBottom="@dimen/_5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.986" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="@dimen/_170dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/actype"
+        android:elevation="5dp"
+        android:layout_marginTop="@dimen/_50dp">
+
+        <ImageView
+            android:id="@+id/proceed"
+            android:layout_width="@dimen/_100dp"
+            android:layout_height="@dimen/_100dp"
+            android:src="@drawable/amb2"
+            app:layout_constraintBottom_toTopOf="@+id/ambulance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ambulance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/j"
+            android:text="@string/ambulance_service"
+            android:textSize="@dimen/_13dp"
+            android:textColor="@color/black_text"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.986" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
