@@ -75,8 +75,11 @@
     <string name="about_hospital">About \nHospital</string>
     <string name="hospital_details">Hospital Details</string>
     <string name="hospital_info">Hospital\n Info</string>
-    <string name="hospital_details">Hospital Details</string>
+    <string name="hospital_detail">Hospital Details</string>
     <string name="emergency_details">Emergency Details</string>
     <string name="documents">Documents</string>
     <string name="hospital_emergency_number">Hospital Emergency number</string>
+    <string name="n58_890">N58,890\n Fill form to Withdraw</string>
+    <string name="wallet">Wallet</string>
+    <string name="search">Search</string>
 </resources>
