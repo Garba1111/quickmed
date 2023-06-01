@@ -16,11 +16,14 @@
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_actype.xml" value="0.22" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_before_auth.xml" value="0.2" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_cam.xml" value="0.25" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_connect.xml" value="0.22" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_details.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_emergency.xml" value="0.16" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_frame.xml" value="0.16" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_hospitalcam.xml" value="0.25" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_layout_testing.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_location.xml" value="0.2" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_location2.xml" value="0.16417272338606242" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_map2.xml" value="0.18" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_maps.xml" value="0.25" />
@@ -31,7 +34,7 @@
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_payments2.xml" value="0.25" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_scrollable.xml" value="0.1" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_scrolltest.xml" value="0.16417272338606242" />
-        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_search.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_search.xml" value="0.33" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_signintype.xml" value="0.2" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_singnintype1.xml" value="0.22" />
         <entry key="..\:/Users/GARBA JOHN/AndroidStudioProjects/test2/app/src/main/res/layout/activity_singnintype2.xml" value="0.25" />

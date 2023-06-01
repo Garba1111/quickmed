@@ -45,7 +45,13 @@
     <dimen name="__15dp"> -15</dimen>
     <dimen name="_60dp" >60</dimen>
     <dimen name="_40dp" >40</dimen>
+    <dimen name="_130dp" >130</dimen>
+    <dimen name="_125dp" >125</dimen>
+    <dimen name="_65dp" >65</dimen>
+    <dimen name="_120dp" >120</dimen>
 
+
+    <dimen name="_140dp" >140</dimen>
     <dimen name="_300dp" >300</dimen>
     <dimen name="_350dp" >350</dimen>
     <dimen name="_195dp" >195</dimen>

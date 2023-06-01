@@ -82,4 +82,10 @@
     <string name="n58_890">N58,890\n Fill form to Withdraw</string>
     <string name="wallet">Wallet</string>
     <string name="search">Search</string>
+    <string name="connecting_with_ambulance">Connecting With \n Ambulance</string>
+    <string name="cance">Cance</string>
+    <string name="cancel">cancel</string>
+    <string name="canc">Cancel</string>
+    <string name="activate_location">Activate Location</string>
+    <string name="listening_for_emergencies">Listening for Emergencies</string>
 </resources>
